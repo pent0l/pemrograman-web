@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 90vh;
+  background-color: rgb(64, 123, 212);
+}
+.container {
+  width: 90%;
+  height: 90%;
+  border: 1px solid gray;
+  border-radius: 20px;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+}
+.kotak {
+  display: flex;
+  justify-content: center;
+  align-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  height: 90%;
+}
+.divider {
+  border: 0.5px solid gray;
+  width: 80px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 1px;
+}
+.pinggir {
+  border-right: 1px rgba(184, 184, 184, 0.548);
+  border-right-style: inset;
+  height: 100%;
+}
+.kiri {
+  border-left: 1px rgba(230, 225, 225, 0.452);
+  border-left-style: inset;
+  height: 100%;
+}
+.btn {
+  text-decoration: none;
+  padding: 5px 10px 5px 10px;
+  border: 1px solid skyblue;
+  border-radius: 10px;
+  color: skyblue;
+}
+.btn:hover {
+  background-color: skyblue;
+  color: white;
+}
