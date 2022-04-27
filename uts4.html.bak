@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ujian Tengah Semester 4</title>
+	<link rel="stylesheet" href="uts4.css"/>
+    
+</head>
+<body>
+    <section class="pertama">
+        <!--- navigation --->
+        <nav class="atas">
+            <!--- logo --->     
+      <img src="bahan/EB.png" alt="" width="50" height="50" class="d-inline-block align-text-top">
+	
+            <!--- menu --->
+            <ul>
+                <li><a class="btn" href="#">Beranda</a></li>
+                <li><a class="btn" href="#">Layanan</a></li>
+                <li><a class="btn" href="#">Form</a></li>
+                <li><a class="btn"href="#">Kontak</a></li>
+            </ul>
+        </nav>
+ 
+        <!--- text --->
+        <div class="text-container">
+            <p>Welcome to,</p>
+            <p><marquee>PENTOL OLSHOP</marquee></p>
+            <p>Toko Dagang Online yang sudah terjamin kualitas barang serta keasliannya</p>
+            <p>Menjual berbagai Merchandise Kpop Terlengkap
+            <br>dari Kpop Gen Pertama sampai Gen Terbaru</p>
+        </div>
+        <!-- model -->
+        <img alt="model" class="model" src="bahan/toko.jpg">  
+    </section>
+ 
+    <!-- services -->
+	<section class="kedua">
+    <div class="services">
+        <!--text-->
+        <div class="services-text ">
+            <h2><p>Layanan</p></h2>
+            <p>Pentol Olshop menyediakan beberapa layanan.</p>
+        </div>
+         
+        <div class="box-container">
+        <!--- 1 --->
+            <div class="box-1">
+			
+                <span><img src="bahan/ongkir.jpg" style="width:100px; height:100px; border-radius:100%"></span>
+                <p class="heading">Gratis Ongkir</p>
+                <p class="details">Gratis Ongkir untuk Customer yang melakukan transaksi lebih dari tiga kali.</p>
+                <button class="btn">Read More</button>
+            </div>
+        <!--- 2 --->
+            <div class="box-2">
+                <span><img src="bahan/COD.jpg" style="width:100px; height:100px; border-radius:100%"></span>
+                <p class="heading">COD</p>
+                <p class="details">Bisa bayar ditempat untuk seluruh Customer.</p>
+                <button class="btn">Read More</button>
+            </div>
+        <!--- 3 --->
+            <div class="box-3">
+                <span><img src="bahan/garansi.jpg" style="width:100px; height:100px; border-radius:100%"></span>
+                <p class="heading">Garansi</p>
+                <p class="details">Memiliki jangka Garansi selama Tujuh Hari.</p>
+                <button class="btn">Read More</button>
+            </div>
+        </div>
+    </div>
+	</section>
+	
+	<!-- formulir -->
+	 <div class="sebelah">
+        <div class="wrapper">
+		<div class="kontak">
+		<img class="kontak" src="bahan/beli.jpg">
+        </div>
+		
+	<div class="formulir">
+	<p><h2>Formulir Pemesanan</h2></p>
+	<form action="" method="post">
+	<p>
+	<label for=""> Nama Lengkap</label>
+	<input type="text" name="nama" placeholder="Nama Kamu"/>
+	</p>
+	<p>
+	<label for=""> Email</label>
+	<input type="email" name="email" placeholder="Alamat Email"/>
+	</p>
+	<p>
+	<label for=""> Alamat</label>
+	<input type="text" name="alamat" placeholder="Alamat Lengkap"/>
+	</p>
+	<p>
+	<label for="">No Telepon</label>
+	<input type="text" name="telepon" placeholder="Masukkan Nomor"/>
+	</p>
+	
+	Pilih Type Produk 
+	<input  type="radio" name="type_produk" value="Full Set"/>Merchandise Lengkap
+	<input  type="radio"  name="type_produk" value="custome"/>Custome
+	
+	<p>
+	<label for="">Komentar Anda</label>
+	<textarea name="komentar" placeholder="Masukkan Komentar" rows="5" cols"80"></textarea>
+	</p>
+
+	<input class="beli" type="submit" value="BELI">
+	</form>
+	</div>
+	</div>
+	</div>
+ 
+    <!-- footer -->
+    <footer>
+        <p>Tertarik Dengan Produk Kami?</p>
+             
+        <!--paragraph-->
+        <p>Olshop kami menyediakan layanan garansi selama tujuh hari, selama itu pula anda bisa melakukan pertukaran ataupun mengembalikan barang dengan uang kembali 100%.</p>
+        <!--social-->
+        <div class="social-icons">
+            <a class="sosmed" href="#"><img src="bahan/logofb.jpg" style="width:50px; height:50px; border-radius:100%"></a>
+            <a class="sosmed" href="#"><img src="bahan/logoig.jpg" style="width:50px; height:50px; border-radius:100%"></a>
+            <a class="sosmed" href="#"><img src="bahan/logoyt.jpg" style="width:50px; height:50px; border-radius:100%"></a>
+            <a class="sosmed" href="#"><img src="bahan/logotlp.jpg" style="width:50px; height:50px; border-radius:100%"></a>
+            <a class="sosmed" href="#"><img src="bahan/logotwt.jpg" style="width:50px; height:50px; border-radius:100%"></a>
+        </div>
+         
+        <!--copyright-->
+        <p class="copyright">Copyright &copy; 2022 Baiq Indri Astuti</p>
+    </footer>
+ 
+</body>
+ 
+</html>
